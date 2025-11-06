@@ -1,0 +1,28 @@
+.friend {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px 10px 15px;
+	border: 2px solid rgb(33, 37, 37);
+	border-radius: 5px;
+	font-size: 24px;
+}
+
+.friend_avatar {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.friend_status_online,
+.friend_status_offline {
+	font-size: 14px;
+}
+
+.friend_status_online {
+	color: green;
+}
+
+.friend_status_offline {
+	color: red;
+}

@@ -1,0 +1,27 @@
+.table {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.thead {
+	color: white;
+	background-color: rgb(33, 37, 37);
+}
+.table th,
+.table td {
+	border: 1.5px solid black;
+}
+
+.tbody {
+	text-align: center;
+}
+.tbody tr:nth-child(even) {
+	background-color: lightgray;
+}
+.tbody td:first-child {
+	text-transform: capitalize;
+	padding-left: 40px;
+	text-align: left;
+}
