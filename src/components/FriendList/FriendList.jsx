@@ -4,9 +4,9 @@ import style from "./FriendList.module.css";
 export default function FriendList({ friends }) {
 	return (
 		<ul className={style.friend_list}>
-			{friends.map((friend, idx) => {
+			{friends.map((friend) => {
 				return (
-					<li key={idx}>
+					<li key={friend.id}>
 						<FriendListItem friend={friend} />
 					</li>
 				);

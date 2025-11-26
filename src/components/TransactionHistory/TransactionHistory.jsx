@@ -12,9 +12,9 @@ export default function TransactionHistory({ items }) {
 				</tr>
 			</thead>
 			<tbody className={style.tbody}>
-				{items.map((transaction, idx) => {
+				{items.map((transaction) => {
 					return (
-						<tr key={idx} className={style.tr}>
+						<tr key={transaction.id} className={style.tr}>
 							{<Transaction transaction={transaction} />}
 						</tr>
 					);
